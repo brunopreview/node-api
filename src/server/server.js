@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const router = require('../router/router.js');
-const NODE_ENV = 'development' // Quando em produção criasse um .env e muda para producao
+const NODE_ENV = 'development' // Quando em produção criasse um .env de configuração e muda para producao
 
 const server = express();
 
